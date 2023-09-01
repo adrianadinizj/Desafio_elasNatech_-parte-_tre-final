@@ -97,3 +97,25 @@ footer {
     float: left;
     text-align:center;
 }
+
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna,
+    .colunaquatro,
+    .justificado,
+    #sobre_mim {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+}
+}
+
+
+
+
+
+    }
